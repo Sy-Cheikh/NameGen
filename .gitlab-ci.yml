@@ -9,6 +9,7 @@ before_script:
   - cp build/index.html build/404.html
   - mv build public
 pages:
+  stage: deploy
   script:
     - ls
   artifacts:
