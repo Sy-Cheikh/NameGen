@@ -1,18 +1,32 @@
-image: node:16-slim
+image: node:18.7.0
 
 stages:
-  - 🚀publish
+  - build
+  - deploy
 
-pages:
-    stage: 🚀publish
+cache:
+  paths:
+    - node_modules/
+
+build-pages:
+    stage: build
     script:
-        - mkdir -p public/
-        - cp * public
+        - rm -rf build
+        - CI=false npm install
+        - CI=false npm run build
+        - rm -rf public
+        - cp build/index.html build/404.html
+        - mv build public
+    
     artifacts:
         paths:
           - public
-    rules:
-      - if: $CI_COMMIT_BRANCH == 'main'
-    environment:
-        name: production/${CI_PROJECT_NAME}/${CI_COMMIT_REF_NAME}
-        url: https://${CI_PROJECT_NAMESPACE}.gitlab.io/${CI_PROJECT_NAME}
+# only :
+   # - master
+pages:
+    stage: deploy
+    script:
+      - ls #just something
+    artefacts:
+      paths:
+        -public
