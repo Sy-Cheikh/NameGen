@@ -5,5 +5,7 @@ Developers sometimes have a hard time finding a name for their project. Even me 
 
 This project was done in ReactJS entirely. We used a library on which we draw the names to suggest.
 
+You can test it [here] (https://sy-cheikh.github.io/NameGen/)
+
 
 
