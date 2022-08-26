@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Sy-Cheikh/NameGen/static/css/main.dab156ed.css",
-    "main.js": "/Sy-Cheikh/NameGen/static/js/main.280f38fc.js",
-    "static/media/back.jpeg": "/Sy-Cheikh/NameGen/static/media/back.0121fca707ef1364546b.jpeg",
-    "index.html": "/Sy-Cheikh/NameGen/index.html",
-    "main.dab156ed.css.map": "/Sy-Cheikh/NameGen/static/css/main.dab156ed.css.map",
-    "main.280f38fc.js.map": "/Sy-Cheikh/NameGen/static/js/main.280f38fc.js.map"
+    "main.css": "/NameGen/static/css/main.dab156ed.css",
+    "main.js": "/NameGen/static/js/main.51b7fe30.js",
+    "static/media/back.jpeg": "/NameGen/static/media/back.0121fca707ef1364546b.jpeg",
+    "index.html": "/NameGen/index.html",
+    "main.dab156ed.css.map": "/NameGen/static/css/main.dab156ed.css.map",
+    "main.51b7fe30.js.map": "/NameGen/static/js/main.51b7fe30.js.map"
   },
   "entrypoints": [
     "static/css/main.dab156ed.css",
-    "static/js/main.280f38fc.js"
+    "static/js/main.51b7fe30.js"
   ]
 }
