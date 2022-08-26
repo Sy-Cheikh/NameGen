@@ -2,7 +2,7 @@
   "name": "namegen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io/Sy-Cheikh/NameGen",
+  "homepage": "http:///Sy-Cheikh.github.io/NameGen",
   "dependencies": {
     "@rstacruz/startup-name-generator": "0.3.0",
     "@testing-library/jest-dom": "^5.16.5",
